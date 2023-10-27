@@ -69,7 +69,7 @@ import "sourcecode.social/reiver/go-jsonpp"
 
 To install package **jsonpp** do the following:
 ```
-GOPROXY=direct https://sourcecode.social/reiver/go-jsonpp
+GOPROXY=direct go get https://sourcecode.social/reiver/go-jsonpp
 ```
 
 ## Author
