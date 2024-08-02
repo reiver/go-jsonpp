@@ -74,4 +74,4 @@ GOPROXY=direct go get https://github.com/reiver/go-jsonpp
 
 ## Author
 
-Package **jsonpp** was written by [Charles Iliya Krempeaux](http://changelog.ca)
+Package **jsonpp** was written by [Charles Iliya Krempeaux](http://reiver.link)
