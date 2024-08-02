@@ -1,4 +1,4 @@
-module sourcecode.social/reiver/go-jsonpp
+module github.com/reiver/go-jsonpp
 
 go 1.20
 

@@ -6,16 +6,16 @@ Package **jsonpp** provides tools for **pretty printing JSON**.
 
 ## Documention
 
-Online documentation, which includes examples, can be found at: http://godoc.org/sourcecode.social/reiver/go-jsonpp
+Online documentation, which includes examples, can be found at: http://godoc.org/github.com/reiver/go-jsonpp
 
-[![GoDoc](https://godoc.org/sourcecode.social/reiver/go-jsonpp?status.svg)](https://godoc.org/sourcecode.social/reiver/go-jsonpp)
+[![GoDoc](https://godoc.org/github.com/reiver/go-jsonpp?status.svg)](https://godoc.org/github.com/reiver/go-jsonpp)
 
 ## Example
 
 Here is an example usage:
 
 ```go
-import "sourcecode.social/reiver/go-jsonpp"
+import "github.com/reiver/go-jsonpp"
 
 // ...
 
@@ -30,7 +30,7 @@ jsonpp.PrettyPrint(jsn) // outputs the pretty-printed JSON to the STDOUT.
 Can also send it to an `io.Writer`
 
 ```go
-import "sourcecode.social/reiver/go-jsonpp"
+import "github.com/reiver/go-jsonpp"
 
 // ...
 
@@ -45,7 +45,7 @@ jsonpp.FPrettyPrint(writer, jsn) // outputs the pretty-printed JSON to an io.Wri
 Or return it as a `string`:
 
 ```go
-import "sourcecode.social/reiver/go-jsonpp"
+import "github.com/reiver/go-jsonpp"
 
 // ...
 
@@ -62,14 +62,14 @@ s := jsonpp.SPrettyPrint(jsn) // returns the pretty-printed JSON as a string.
 
 To import package **jsonpp** use `import` code like the follownig:
 ```
-import "sourcecode.social/reiver/go-jsonpp"
+import "github.com/reiver/go-jsonpp"
 ```
 
 ## Installation
 
 To install package **jsonpp** do the following:
 ```
-GOPROXY=direct go get https://sourcecode.social/reiver/go-jsonpp
+GOPROXY=direct go get https://github.com/reiver/go-jsonpp
 ```
 
 ## Author
