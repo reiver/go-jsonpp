@@ -69,7 +69,7 @@ import "github.com/reiver/go-jsonpp"
 
 To install package **jsonpp** do the following:
 ```
-GOPROXY=direct go get https://github.com/reiver/go-jsonpp
+GOPROXY=direct go get github.com/reiver/go-jsonpp
 ```
 
 ## Author
